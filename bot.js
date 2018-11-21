@@ -83,13 +83,13 @@ if (command == "emb")    {
 
 client.on('message', message => {
     if(message.content === 'ريب'){
-        message.channel.send('#rep @!          Huler | ♠MЄRĪĈ⚠#4271')
+        message.channel.send('#rep <@!434327219310034954>')
     }
 });
 
 client2.on('message', message => {
     if(message.content === 'ريب'){
-        message.channel.send('#rep @!          Huler | ♠MЄRĪĈ⚠#4271')
+        message.channel.send('#rep <@!434327219310034954>')
     }
 });
 
