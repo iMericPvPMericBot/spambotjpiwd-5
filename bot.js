@@ -27,7 +27,7 @@ var prefix = "-";
 
   let args = message.content.split(" ").slice(1);
 
-  if (command === "11say")  {
+  if (command === "9say")  {
   if(!message.channel.guild) return message.reply('** __This command only for servers⛔__  **');
           message.delete()
     message.channel.sendMessage(args.join(" ")).catch(console.error);
@@ -61,7 +61,7 @@ var prefix = "-";
 
   let args = message.content.split(" ").slice(1);
 
-  if (command === "12say")  {
+  if (command === "10say")  {
   if(!message.channel.guild) return message.reply('** __This command only for servers⛔__  **');
           message.delete()
     message.channel.sendMessage(args.join(" ")).catch(console.error);
@@ -136,7 +136,7 @@ if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
+        message.channel.send(`**boom boom lol lol lol lol lol lol | يا عمي سباااااااااااااااااام = كريديييييييييييتتتتتتتتتتت لول لول لول انا بوت محشش صح **[ " ${x} " ]`)
           .then(m => {
             count++;
           })
